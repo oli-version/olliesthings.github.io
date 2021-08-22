@@ -1,0 +1,19 @@
+body{
+    background: rgb(0,236,255);
+    background: -moz-linear-gradient(90deg, rgba(0,236,255,1) 0%, rgba(255,0,224,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,236,255,1) 0%, rgba(255,0,224,1) 100%);
+    background: linear-gradient(90deg, rgba(0,236,255,1) 0%, rgba(255,0,224,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00ecff",endColorstr="#ff00e0",GradientType=1);
+}
+
+h1{
+    color: white;
+    font-family: 'Circular';
+    font-size: 80px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
